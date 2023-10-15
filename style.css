@@ -1,17 +1,45 @@
-#greycol{
+/* Task 1 styles */
+#greycol {
     color: grey;
 }
-.yellow{
+
+.yellow {
     color: yellow;
 }
-div>div>p{
+
+div>div>p {
     color: red;
 }
 
-div+h3+p{
+div+h3+p {
     color: green;
 }
 
-h3:first-child{
+h3:first-child {
     color: pink;
+}
+
+/* Task 2 styles */
+.monday-item:first-child:hover {
+    color: blue;
+}
+
+
+.tuesday-item:nth-child(3n+2):focus {
+    color: brown;
+}
+
+
+.wednesday-item:nth-child(n+2):active {
+    color: rgb(0, 255, 157);
+}
+
+
+.thursday-item:nth-child(2n):disabled {
+    color: blueviolet;
+}
+
+
+.friday-item:last-child:hover {
+    color: chartreuse;
 }
